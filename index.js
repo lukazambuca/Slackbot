@@ -1,7 +1,8 @@
 const SlackBot = require('slackbots');
 const axios = require('axios');
 const dotenv = require('dotenv');
-const unirest = require("unirest");
+const pingmydyno = require('pingmydyno');
+
 
 require('dotenv').config();
 
@@ -182,3 +183,26 @@ function runHelp() {
 }
 
 
+
+
+// Slack App directory submission 302 server
+const http = require('http');
+const fs = require('fs');
+ 
+http.createServer(function (req, res) {
+    
+    if (req.url == '/') {
+        res.writeHead(302, { "Location": "https://" + 'slack.com' });
+        return res.end();
+    } else {
+        fs.readFile(req.url.substring(1),
+            function(err, data) { 
+                if (err) throw err;
+                res.writeHead(200);
+                res.write(data.toString('utf8'));
+                return res.end();
+        });
+    } 
+}).listen(`${process.env.PORT}`, () => {
+    pingmydyno('https://ronabot.herokuapp.com/');
+});
