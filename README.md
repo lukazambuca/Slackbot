@@ -17,7 +17,7 @@ npm install
 npm start
 ```
 ### Create a bot in [Slack](https://api.slack.com/apps/AM92STGGG/general?) and include your unique OAuth bot token.
-## Also make sure to get your X-RapidAPI-Key from [Rakuten Rapid API](https://english.api.rakuten.net/Gramzivi/api/covid-19-data?endpoint=apiendpoint_5c132769-7bb2-4000-b320-f42731a7dee3).
+### Also make sure to get your X-RapidAPI-Key from [Rakuten Rapid API](https://english.api.rakuten.net/Gramzivi/api/covid-19-data?endpoint=apiendpoint_5c132769-7bb2-4000-b320-f42731a7dee3).
  ```
  //Add the following to your .env
 BOT_TOKEN=YOUR_BOT_TOKEN_HERE
