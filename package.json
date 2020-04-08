@@ -1,0 +1,25 @@
+{
+  "name": "finbot",
+  "version": "1.0.0",
+  "description": "A simple Bot that returns financial information",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukazambuca/Slackbot.git"
+  },
+  "author": "Luka Beverin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukazambuca/Slackbot/issues"
+  },
+  "homepage": "https://github.com/lukazambuca/Slackbot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0",
+    "unirest": "^0.6.0"
+  }
+}
