@@ -2,9 +2,9 @@
 
 @Ronabot is a simple Slackbot :robot: that retuns COVID-19 summary statistics for the World and countries individually. 
 
-Add to slack link: https://slack.com/oauth/authorize?client_id=1044274649057.1045472667079&scope=bot
+> [ADD TO SLACK LINK](https://slack.com/oauth/authorize?client_id=1044274649057.1045472667079&scope=bot)
 
-Want to see the bot in action? Check out the [youtube video](https://www.youtube.com/watch?v=Qv25TKOm8RQ)
+> Want to see the bot in action? Check out the [youtube video](https://www.youtube.com/watch?v=Qv25TKOm8RQ)
 
 ## Set up and Deploy
 
@@ -20,12 +20,12 @@ npm start
 ```
 ### 3) Create a bot in [Slack](https://api.slack.com/apps/AM92STGGG/general?) and include your unique OAuth bot token.
 Also make sure to get your X-RapidAPI-Key from [Rakuten Rapid API](https://english.api.rakuten.net/Gramzivi/api/covid-19-data?endpoint=apiendpoint_5c132769-7bb2-4000-b320-f42731a7dee3) in order to use the API which retrieves COVID-19 data.
- ```
+ ```javascript
  //Add the following to your .env file
 BOT_TOKEN=YOUR_BOT_TOKEN_HERE
 RAPID_KEY=YOUR_X-RAPID_KEY
 ```
-```
+```javascript
 //Notice the template strings, that is where your token from the .env file will go.
 
 
@@ -34,7 +34,7 @@ const bot = new SlackBot({
     token: `${process.env.BOT_TOKEN}`,
     name: 'Your app name'
 });
-------------------------------------------------
+//------------------------------------------------
 //COVID-19 API
 axios({
     "method":"GET",
