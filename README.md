@@ -80,7 +80,10 @@ There is also a "help" command.
 
 
 ### What's left to be done?
-A big thanks to Topcoder and Slack for the interesting hackathon. A lot was learnt during this hackathon. However, this bot only has simple command features and not much depth. The bot only posts to channels which are defined by the bot installer. The bot should ideally pick up when it has been invited to a channel and respond to the channel in which it is mentioned. 
+A big thanks to Topcoder and Slack for the interesting hackathon. A lot was learnt during this hackathon. However, this bot is still in the development stage as it only has simple command features with not much depth. The bot only posts to channels which are defined by the bot installer. The bot should ideally pick up when it has been invited to a channel and respond to the channel in which it is mentioned. 
+
+#### References
+[Bolaji Ayodeji from freecodecamp](https://www.freecodecamp.org/news/building-a-slackbot-with-node-js-and-slackbots-js/) was instrumental.
 
 
 
