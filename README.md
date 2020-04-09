@@ -4,6 +4,8 @@
 
 Add to slack link: https://slack.com/oauth/authorize?client_id=1044274649057.1045472667079&scope=bot
 
+Want to see the bot in action? Check out the [youtube video](https://www.youtube.com/watch?v=Qv25TKOm8RQ)
+
 ## Set up and Deploy
 
 ### 1) Clone the repository
@@ -77,7 +79,8 @@ There is also a "help" command.
 ![alt text](https://github.com/lukazambuca/Slackbot/blob/master/screenshots/Screenshot%202020-04-09%20at%2011.55.12.png)
 
 
-
+### What's left to be done?
+A big thanks to Topcoder and Slack for the interesting hackathon. A lot was learnt during this hackathon. However, this bot only has simple command features and not much depth. The bot only posts to channels which are defined by the bot installer. The bot should ideally pick up when it has been invited to a channel and respond to the channel in which it is mentioned. 
 
 
 
