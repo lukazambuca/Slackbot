@@ -58,16 +58,22 @@ When the user types '@Ronabot corona' the bot returns global COVID-19 summary st
 ```
 ![alt text](https://github.com/lukazambuca/Slackbot/blob/master/screenshots/Screenshot%202020-04-09%20at%2011.34.15.png)
 
-The user can also choose a specific country by entering the string $ followed by the country's ISO 3166 code. 
-
+The user can also choose a specific country by entering the string $ followed by the country's ISO 3166 code.
+```
+@Ronabot $it
+```
 ![alt text](https://github.com/lukazambuca/Slackbot/blob/master/screenshots/Screenshot%202020-04-09%20at%2011.45.32.png)
 
 What happens if the user enters a country code which is not recognizable? The bot replies with a message letting the user know about the error and attaches a link to a list of country codes.
-
+```
+@Ronabot $hi
+```
 ![alt text](https://github.com/lukazambuca/Slackbot/blob/master/screenshots/Screenshot%202020-04-09%20at%2011.50.31.png)
 
 There is also a "help" command.
-
+```
+@Ronabot help
+```
 ![alt text](https://github.com/lukazambuca/Slackbot/blob/master/screenshots/Screenshot%202020-04-09%20at%2011.55.12.png)
 
 
